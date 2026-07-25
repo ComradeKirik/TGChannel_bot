@@ -7,4 +7,5 @@ router = Router()
 
 @router.message(CommandStart())
 async def start_handler(message: Message) -> None:
-    await message.answer("Hello! I'm your bot.")
+    
+    await message.answer("Заявка на вступление в канал принята. Ожидайте подтверждения от администратора...")
